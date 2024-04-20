@@ -42,3 +42,4 @@ with st.form("teder"):
     if st.form_submit_button("Generate"):
         st.markdown("### {}hz".format(right - left))
         genWave(left, right, seconds)
+
