@@ -11,7 +11,7 @@ def genWave(left:float, right:float, seconds=600):
     note_l = np.sin(l * t * 2 * np.pi)
     note_r = np.sin(r * t * 2 * np.pi)
     st.audio(np.array([note_l, note_r]), sample_rate=sample_rate)
-
+    
 
 st.markdown("## Relax")
 st.markdown("### 0.5hz - Strong")
