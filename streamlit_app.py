@@ -3,6 +3,7 @@ import numpy as np
 
 st.title("Tedarim Meditation")
 
+
 def genWave(left:float, right:float, seconds=600):
     sample_rate = 44100  # 44100 samples per second
     # Generate array with seconds*sample_rate steps, ranging between 0 and seconds
